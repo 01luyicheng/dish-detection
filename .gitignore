@@ -20,7 +20,10 @@ output_*/
 *.jpeg
 *.png
 *.bmp
-!annotated_examples/*.jpg
+
+# 允许 examples 目录下的示例图片
+!examples/**/*.jpg
+!examples/**/*.png
 
 # 环境
 venv/
