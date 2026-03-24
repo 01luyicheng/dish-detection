@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 模型权重文件（太大，不建议上传）
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# 输出目录（包含处理后的图片，太大）
+output/
+output_*/
+
+# 图片数据集（如果有）
+*.jpg
+*.jpeg
+*.png
+*.bmp
+!annotated_examples/*.jpg
+
+# 环境
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
